@@ -19,7 +19,7 @@ public class iFrame {
         WebElement lastname= driver.findElement(By.cssSelector("input[id='lname']"));
         lastname.clear();
         lastname.sendKeys("PS");
-        WebElement button= driver.findElement(By.xpath("input[type='submit']"));
+        WebElement button= driver.findElement(By.cssSelector("input[type='submit']"));
         button.click();
         driver.switchTo().defaultContent();
 
