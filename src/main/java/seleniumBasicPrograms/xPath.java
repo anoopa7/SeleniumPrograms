@@ -12,7 +12,7 @@ public class xPath {
         WebDriver driver=new ChromeDriver();
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         Thread.sleep(3000);
-        WebElement username= driver.findElement(By.xpath("//input[@name='username']"));
+        WebElement username= driver.findElement(By.xpath("//input[@name='sername']"));
         username.sendKeys("Admin");
         WebElement password= driver.findElement(By.xpath("//input[@name='password']"));
         password.sendKeys("admin123");
